@@ -1,0 +1,81 @@
+.teclado{ /*conf que afectan al teclado*/
+    display:block;/*elemento tratado como block*/
+    margin:0 auto; /*margen de teclado*/
+    background: linear-gradient(#8592F4,#70D6FC); /* degradado de colores en la calculadora (teclado)*/
+    padding:20px; /*zona de relleno del teclado*/
+    width: 350px; /*ancho*/
+    height:500px;/*alto*/
+    
+    cursor: pointer; /*cambio el cursor cuando se posiciona en la calculadora*/
+  
+  
+  }
+     #pantalla{ /*conf que afectan a la pantalla*/
+    display:block;/*elemento tratado como block */
+    text-align: center; /*numeros  centrados  */
+    font-size: 40px; /*tamaño de los numeros  */
+    margin-bottom: 40px;/*margen de la pantalla */
+    width:300px;/*ancho */
+    height: 100px;/*alto*/
+    line-height: 100px; /*altura de los numeros*/
+    background-color:rgba(100,149,237, 0.4);/*color de la pantalla*/
+    
+    
+   
+    
+  }
+  
+  .teclado td button {/*conf que afectan a los botones*/
+    display: block;/*elemento tratado como block */
+    width: 70px;/*ancho */
+    height: 70px;/*alto*/
+    font-size: 25px;/*tamaño de los numeros en el boton */
+    cursor: pointer;/*cambio el cursor cuando se posiciona en los botones*/
+    color:#fff; /*color de los numeros en el boton*/
+    background-color: cornflowerblue;/*color de los botones*/
+    border-style: inherit; /*estilo de borde en botones*/
+ 
+    
+  }
+  
+  .teclado td button { /*transicion de estado 1s, cambio de color con el hover a los botones*/
+    transition-property: background;
+    transition-duration: 1s;
+    
+  }
+  
+  
+  .teclado td button:hover {
+    background-color:lightskyblue;
+  }
+  
+  
+  #division {  /*cambio el color al boton de division "/" */
+  color:mediumslateblue
+  }
+  #multiplicacion { /*cambio el color al boton de multiplicacion "*" */
+    color:mediumslateblue
+    }
+  #resta {  /*cambio el color al boton de resta "-" */
+    
+    color:mediumslateblue
+    }
+  
+  #suma {  /*cambio el color al boton de suma "+" */
+    color:mediumslateblue
+      }
+  
+  
+  #pantalla { /*transicion de estado 1s, cambio de color con el hover a la pantalla*/
+    transition-property: background;
+    transition-duration: 1s;
+      
+    
+    }
+  
+  #pantalla:hover {
+      background-color:lightskyblue;
+    }
+  
+  
+   

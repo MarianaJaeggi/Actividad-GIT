@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!--para indircar que estamos en HTLM5-->
+<html lang= "es-AR"> <!--Lenguaje en el cual va a estar el documento: AR-->
+
+
+<head>
+    <meta charset="utf-8"> <!--codificacion de caracterres-->
+    <!--titulo del programa-->
+    <title> Calculadora con JavaScript  </title><!--titulo del trabajo-->
+    <link rel="stylesheet" href="calculadora2-estilos.css">  <!-- Archivo donde estoy definiendo los estilos-->
+    <script src="calcudora2ejecucion.js"></script> <!-- Archivo de referencia javascrip-->
+</head>
+<!--Aqui viene el body-->
+<body>
+    <table class="teclado">
+<!--representa la pantalla de la calculadora-->
+ 
+<td colspan="4"><span id="pantalla"></span></td>
+
+<!--una fila con 4 teclas del teclado a continuacion7-8-9-/:(se puso boton con ID)-->
+<tr>
+   
+        <td><button id="siete">7</button></td>
+        <td><button id="ocho">8</button></td>
+        <td><button id="nueve">9</button></td>
+        <td><button id="division">/</button></td>
+        
+</tr>
+
+<!--una fila con 4 teclas del teclado a continuacion4-5-6-*:(se puso boton con ID)-->
+<tr>
+    <td><button id="cuatro">4</button></td>
+    <td><button id="cinco">5</button></td>
+    <td><button id="seis">6</button></td>
+    <td><button id="multiplicacion">*</button></td>
+ </tr>
+<!--una fila con 4 teclas del teclado a continuacion 1-2-3--:(se puso boton con ID)-->
+ <tr>
+    <td><button id="uno">1</button></td>
+    <td><button id="dos">2</button></td>
+    <td><button id="tres">3</button></td>
+    <td><button id="resta">-</button></td>
+ </tr>
+
+<!--una fila con 4 teclas del teclado a continuacion =-C-0-+:(se puso boton con ID)-->
+ <tr>
+    <td><button id="igual">=</button></td>
+    <td><button id="reset">C</button></td>
+    <td><button id="cero">0</button></td>
+    <td><button id="suma">+</button></td>
+ </tr>
+
+    </table>
+
+</body>
+
+
+</html>
